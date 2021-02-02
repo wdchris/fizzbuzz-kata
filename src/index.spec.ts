@@ -1,11 +1,21 @@
 import { expect } from 'chai';
 
-export function sum(a: number, b: number): number {
+function sum(a: number, b: number): number {
     return a + b;
+}
+
+function fizzbuzz(a: number): string {
+    return "";
 }
 
 describe('sample test-suite', () => {
     it('sum 1 + 3 should be 4', () => {
         expect(sum(1, 3)).eql(4);
+    });
+});
+
+describe('fizzbuzz kata tests', () => {
+    it('should return a string of number 1', () => {
+        expect(fizzbuzz(1)).eql("1");
     });
 });
