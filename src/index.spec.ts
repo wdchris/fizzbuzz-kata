@@ -5,10 +5,10 @@ function sum(a: number, b: number): number {
 }
 
 function fizzbuzz(a: number): string {
-    if(a % 3 === 0){
+    if (a % 3 === 0) {
         return "Fizz";
     }
-    
+
     return a.toString();
 }
 
