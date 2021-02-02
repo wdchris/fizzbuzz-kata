@@ -11,6 +11,21 @@ TypeScript seed project. Use it to scaffold a TS project with all the tooling ne
 [![Known Vulnerabilities](https://snyk.io/test/github/metadevpro/ts-project-seed/badge.svg)](https://snyk.io/test/github/metadevpro/ts-project-seed)
 [![Greenkeeper badge](https://badges.greenkeeper.io/metadevpro/ts-project-seed.svg)](https://greenkeeper.io/)
 
+## How to fork this project
+
+1. Navigate to the repo here [https://github.com/LauLlobet/typescript-boilerplate](https://github.com/LauLlobet/typescript-boilerplate)
+2. Click the Fork button from the top right corner of the page
+3. Chose to fork the code to your personal github account
+4. You can rename the github repo to the kata name from the Settings tab. e.g. fizzbuzz-kata
+5. Clone the code from the forked repository:
+```bash
+git clone git@github.com:<youGithubHandle>/fizzbuzz.git
+cd fizzbuzz
+npm install
+```
+6. You can rename the github repo to the kata name from the Settings tab
+7. Copy and paste the instructions to the team
+
 ## How to use it
 
 1. Clone from github
