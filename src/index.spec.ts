@@ -5,7 +5,7 @@ function sum(a: number, b: number): number {
 }
 
 function fizzbuzz(a: number): string {
-    return "";
+    return a.toString();
 }
 
 describe('sample test-suite', () => {
@@ -17,5 +17,11 @@ describe('sample test-suite', () => {
 describe('fizzbuzz kata tests', () => {
     it('should return a string of number 1', () => {
         expect(fizzbuzz(1)).eql("1");
+    });
+});
+
+describe('fizzbuzz kata tests', () => {
+    it('should return a string of number 3', () => {
+        expect(fizzbuzz(3)).eql("Fizz");
     });
 });
